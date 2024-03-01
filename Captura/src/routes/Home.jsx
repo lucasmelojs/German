@@ -1,4 +1,4 @@
-import styles from "../routes/css/Home.module.css";
+import styles from "./css/Home.module.css";
 
 const Home = () => {
   return (

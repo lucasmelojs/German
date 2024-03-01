@@ -25,7 +25,7 @@ const router = createBrowserRouter([
         element: <Client />
       },
       {
-        path: '/Flags',
+        path: '/LeanBellyJuice3Free',
         element: <Flags />
       }
 
