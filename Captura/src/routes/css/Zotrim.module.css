@@ -1,0 +1,93 @@
+body {
+  background-color: #fefefe !important;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 4rem);
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  text-wrap: balance;
+}
+
+p {
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  text-wrap: balance;
+}
+
+.header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  background-color: #463072;
+  height: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  height: 40px;
+}
+
+.hero_container {
+  background-color: #b694f1;
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0;
+  padding: 0 16vw;
+}
+
+.hero_wrapper {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 40px;
+}
+.hero_button {
+  height: 40px;
+  width: 240px;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #7e55d2;
+  background-color: #ffcd7c;
+  color: #ffff;
+}
+
+.hero_photo {
+  align-items: flex-start;
+  max-width: 48vh;
+}
+
+.pros_container {
+  display: flex;
+  margin: 80px 16vw;
+  max-width: 68vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimony_container {
+  background-color: #ffffff;
+  display: flex;
+  padding: 40px 16vw;
+  flex-direction: column;
+}
+
+.testimony_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 0px;
+  column-gap: 0;
+  margin-bottom: 400px;
+}

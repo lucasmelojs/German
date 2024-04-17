@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   height: 100vh !important;
-  background-color: #59cde4;
+  background-color: #59cde4 !important;
   position: relative;
 }
 .container {

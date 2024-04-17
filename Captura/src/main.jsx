@@ -6,9 +6,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //pages
 import Home from './routes/Home';
-import Client from './routes/Client';
 import ErrorPage from './routes/ErrorPage';
 import Flags from './routes/Flags';
+import Zotrim from './routes/Zotrim';
 
 const router = createBrowserRouter([
   {
@@ -21,12 +21,12 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: '/Client',
-        element: <Client />
+        path: '/flags',
+        element: <Flags />
       },
       {
-        path: '/LeanBellyJuice3Free',
-        element: <Flags />
+        path: '/Zotrim',
+        element: <Zotrim />
       }
 
     ]
