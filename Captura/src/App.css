@@ -1,6 +1,5 @@
 #root {
   margin: 0 auto;
-  padding: 0 auto;
 }
 
 .container {
@@ -14,8 +13,6 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 0 auto;
-  display: flex;
   background-color: black;
   height: 120px;
 }
