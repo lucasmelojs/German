@@ -4,6 +4,11 @@ const Zotrim = () => {
     return (
         <>
             <header>
+                <div className={styles.promo} >
+                    <p>
+                        Sign Up For <b>10% Discount</b> - Avaiable Only <b>This Week</b>
+                    </p>
+                </div>
                 <div className={styles.header}>
                     <a href="https://zotrim.com/?_ef_transaction_id=&oid=13&affid=37993">
                         <img className={styles.logo} src="zotrim-logo.png" alt="logo" />
@@ -17,7 +22,7 @@ const Zotrim = () => {
                         <button className={styles.hero_button}>ORDER NOW</button>
                     </a>
                 </div>
-                <div>
+                <div className={styles.hero_photo_container}>
                     <picture className={styles.hero_photo}>
                         <source media="(max-width: 440px)" srcSet="weight_small.png" />
                         <source media="(max-width: 768px)" srcSet="weight_medium.png" />
@@ -76,7 +81,7 @@ const Zotrim = () => {
 
                 <div className={styles.testimony_button_container}>
                     <a href='https://zotrim.com/?_ef_transaction_id=&oid=13&affid=37993'>
-                        <button className={styles.testimony_button}>ORDER NOW</button>
+                        <button className={styles.testimony_button}>SIGN UP</button>
                     </a>
                 </div>
             </section>

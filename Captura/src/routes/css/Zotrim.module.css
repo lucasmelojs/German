@@ -1,7 +1,7 @@
 body {
   background-color: #fefefe !important;
   margin: 0 auto;
-  margin-bottom: 8000px;
+  margin-bottom: 2400px;
 }
 
 h1 {
@@ -29,8 +29,9 @@ button {
   letter-spacing: 0.04rem;
   cursor: pointer;
 }
-
-.header {
+.promo {
+  background-color: #ed9451;
+  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -39,8 +40,19 @@ button {
   justify-content: center;
   margin: 0 auto;
   display: flex;
+  height: 4vh;
+}
+.header {
+  position: fixed;
+  top: 4vh;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
   background-color: #463072;
-  height: 14vh;
+  height: 10vh;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 .logo {
@@ -60,6 +72,7 @@ button {
   display: flex;
   flex-direction: column;
 }
+
 .hero_button {
   border: none;
   border-radius: 10px;
@@ -104,16 +117,19 @@ button {
   background-color: #ed9451;
   color: #ffff;
 }
+
+@media (max-width: 392px) {
+  p {
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+  }
+}
 @media (max-width: 440px) {
   .hero_container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 14vh;
     padding: 0 0;
   }
 
   .hero_wrapper {
-    padding: 4vh 0 0 8vw;
+    padding: 4vh 0 0 4vw;
   }
 
   .pros_container {
