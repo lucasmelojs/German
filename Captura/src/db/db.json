@@ -1,0 +1,22 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "avatar": "path/to/avatar.png",
+      "name": "Michelle",
+      "location": "London",
+      "date": "Dec 04, 2023",
+      "rating": 5,
+      "review": "Being a fitness enthusiast, I found it hard to believe that a supplement could really make a difference in my weight loss journey. But Zotrim surprised me. It not only helped me burn fat more quickly during my workouts but also controlled my hunger, I'm impressed with the results and recommend Zotrim to all my friends."
+    },
+    {
+      "id": 2,
+      "avatar": "path/to/avatar.png",
+      "name": "Michelle",
+      "location": "London",
+      "date": "Dec 04, 2023",
+      "rating": 4,
+      "review": "Being a fitness enthusiast, I found it hard to believe that a supplement could really make a difference in my weight loss journey. But Zotrim surprised me. It not only helped me burn fat more quickly during my workouts but also controlled my hunger, I'm impressed with the results and recommend Zotrim to all my friends."
+    }
+  ]
+}

@@ -9,6 +9,8 @@ import Home from './routes/Home';
 import ErrorPage from './routes/ErrorPage';
 import Flags from './routes/Flags';
 import Zotrim from './routes/Zotrim';
+import Login from './routes/Login/index';
+import Register from './routes/Register/index';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: '/Zotrim',
         element: <Zotrim />
+      },
+      {
+        path: '/Login',
+        element: <Login />
+      },
+      {
+        path: '/Register',
+        element: <Register />
       }
 
     ]

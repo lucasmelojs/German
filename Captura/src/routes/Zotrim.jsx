@@ -1,6 +1,9 @@
 import styles from './css/Zotrim.module.css'
+import ImageUpload from '../components/ImageUpload/ImageUpload.jsx'
+
 
 const Zotrim = () => {
+
     return (
         <>
             <header>
@@ -83,6 +86,9 @@ const Zotrim = () => {
                     <a href='https://zotrim.com/?_ef_transaction_id=&oid=13&affid=37993'>
                         <button className={styles.testimony_button}>SIGN UP</button>
                     </a>
+                </div>
+                <div>
+                    <ImageUpload />
                 </div>
             </section>
         </>
